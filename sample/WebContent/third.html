@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="mystyle3.css">
+</head>
+<body>
+<div class="container-fluid">
+<div class="pageheader" id="header">
+<div class="row">
+<div class="col-md-2">
+<img src="logo2.png" id="plimg">
+</div>
+<div class="col-md-1">
+</div>
+<div class="col-md-2">
+<form class="navbar-form" id="head">
+<div class="input-group add-on">
+<input class="form-control" placeholder="Search" id="search" type="text">
+<div class="input-group-btn">
+<button type="submit" class="btn btn-default" id="searchbtn">
+<i class="glyphicon glyphicon-search"></i>
+</button>
+</div>
+</div>
+</form>
+
+</div>
+<div class="col-md-2"></div>
+<div class="col-md-1">
+<i class="glyphicon glyphicon-bell notification-icon" id="bell"></i>
+</div>
+<div class="col-md-2" id="adname">
+<h5><b>Welcome,Admin Oeindrila...</b></h5>
+</div>
+<div class="col-md-1" id="btnlog">
+<form action="#" id="btnform">
+<button type="submit" id="log" class="btn"><span>Logout</span></button>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="container-fluid">
+<div class="row" id="side">
+<div class="col-md-2" >
+<div class="sidenav" >
+<div class="row" id="pro">
+<div class="col-sm-4">
+<p>PROFILE</p></div>
+<div class="col-sm-4"></div>
+
+
+</div>
+<div id="imageh"></div>
+<div id="infotext">
+<p style="font-size:20px; margin-top:px;"><b>Helen Cho</b></p>
+ 
+<p><b>ID</b><br>GRZLY17234</p>
+<p><b>Designation</b><br>Sr.Admin</p>
+ 
+<p><b>Office</b><br>NYC,NY,USA</p>
+ 
+</div>
+</div>
+</div>
+
+
+<div class="col-md-9" id="brnav">
+<br><br>
+<ul class="nav nav-pills nav-justified">
+<li class="active">
+  <a data-toggle="pill" href="#product">Products</a>
+  </li>
+<li>
+   <a data-toggle="pill" href="#vendor">Vendors</a></li>
+<li>
+<a data-toggle="pill" href="#"></a>
+</li>
+</ul>
+<div class="tab-content">
+<div id="product" class="tab-pane fade in active">
+<br><br>
+<div class="row">
+<div class="col-sm-6">
+<img src="Capture.PNG">
+<div class="row">
+<div class="col-sm-2">
+<div style="padding:20px;">
+  <a target="_blank" href="images/billgates.jpg">
+  <img src="imageh.png" alt="Forest" style="width:50px; height:50px; border: 2px solid black; padding: 2px;">
+  <span><button type="button" class="btn btn-default" style="border-radius:50%; width:20px;height:20px; transform:translate(-60%,-120%); background-color: black; color:white;"><span style="position:absolute; transform:translate(-50%,0%);" class="glyphicon glyphicon-remove"></span></button></span>
+</a>
+  </div>
+  </div>
+  <div class="col-sm-2">
+  <div style="padding:20px;">
+  <a target="_blank" href="images/billgates.jpg">
+  <img src="images/billgates.jpg" alt="Forest" style="width:50px; height:50px; border: 2px solid black; padding: 2px;">
+  <span><button type="button" class="btn btn-default" style="border-radius:50%; width:20px;height:20px; transform:translate(-60%,-120%); background-color: black; color:white;"><span style="position:absolute; transform:translate(-50%,0%);" class="glyphicon glyphicon-remove"></span></button></span>
+</a>
+  </div>
+  </div>
+  <div class="col-sm-2">​
+  <div style="padding:0px;">
+  <a target="_blank" href="images/billgates.jpg">
+  <img src="images/billgates.jpg" alt="Forest" style="width:50px; height:50px; border: 2px solid black; padding: 2px;">
+  <span><button type="button" class="btn btn-default" style="border-radius:50%; width:20px;height:20px; transform:translate(-60%,-120%); background-color: black; color:white;"><span style="position:absolute; transform:translate(-50%,0%);" class="glyphicon glyphicon-remove"></span></button></span>
+</a>
+  </div>
+  </div>
+  <div class="col-sm-2">​
+  <div style="padding:0px;">
+  <a target="_blank" href="images/billgates.jpg">
+  <img src="imageh.jpg" alt="Forest" style="width:50px; height:50px; border: 2px solid black; padding: 2px;">
+  <span><button type="button" class="btn btn-default" style="border-radius:50%; width:20px;height:20px; transform:translate(-60%,-120%); background-color: black; color:white;"><span style="position:absolute; transform:translate(-50%,0%);" class="glyphicon glyphicon-remove"></span></button></span>
+</a>
+  </div>
+  </div>​​
+</div>
+</div>
+<div class="col-sm-3">
+<input type="text" placeholder="Enter Product ID" id="attributes"><hr>
+<div class="dropdown" id="cdrop1">
+    <button class="btn btn-default dropdown-toggle" type="button" id="no-border" data-toggle="dropdown">Category
+    <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Electronics</a></li>
+      <li><a href="#">Appliances</a></li>
+      <li><a href="#">Healthcare</a></li>
+      <li><a href="#">Furniture</a></li>
+      <li><a href="#">Automobile</a></li>
+    </ul><hr>
+   
+<input type="text" placeholder="Name" id="attributes"><hr>
+<input type="text" placeholder="Description" id="attributes"><hr>
+<input type="text" placeholder="Price" id="attributes"><hr>
+ 
+</div>
+     </div>
+     
+ 
+</div>
+<div class="row">
+<div class="col-lg-11">
+ 
+</div>
+<div class="col-lg-1">
+<button id="logl" class="btn btn-primary btn-lg">Add</button><br><br>
+<button id="logl" class="btn btn-primary btn-lg">Cancel</button>
+</div>
+</div>
+<div id="vendor" class="tab-pane fade">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>​

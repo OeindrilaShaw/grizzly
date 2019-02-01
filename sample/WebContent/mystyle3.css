@@ -1,0 +1,155 @@
+#bear{
+padding: 150px;
+display:block;
+margin-left:auto;
+margin-right:auto;
+border-bottom: 2px solid #c3c3c3;
+height: 50%;
+width: 50%;
+}
+#welcome{
+text-align:center;
+}
+
+#user,#pass{
+border-radius: 2rem;
+background-color:#f3f3f3;
+border: none;
+text-align: left;
+    padding-left:30px;
+height: 45px;
+font-size: 25px;
+color: #9d9d9d;
+}
+
+#sub{
+border-radius: 2rem;
+border: none;
+background-color:#cfcfcf;
+width: 150px;
+height: 45px;
+font-size:23px;
+color:#5d5d5d;
+}
+#plimg{
+height:107px;
+width:325px;
+}
+#header{
+background-color:#f2f2f2;
+margin-top:10px;
+}
+#searchbtn,#searchbtn1{
+margin-left:-45px;
+border:none;
+text-align:right;
+}
+#search{
+
+height:45px;
+border-radius: 2.5rem;
+border: none;
+width:300px;
+color: black;
+font-size:20px;
+padding-left:30px;
+}
+#bell{
+padding-top:45px;
+font-size:25px;
+margin-left:100%;
+}
+#head,#head1{
+padding-top:25px;
+margin-left: -10px;
+}
+#adname{
+text-align:right;
+padding-top:38px;
+}
+
+
+#log{
+margin-top:40px;
+border-radius:2.5rem;
+background-color:#a7a7a7;
+margin-left:80%;
+width:100px;
+}
+
+.sidenav{
+margin-top:30px;
+margin-left:30px;
+padding:10px 10px 10px 10px;
+background-color:#f3f3f3;
+height:100%;
+}
+#pro{
+background-color:#959595;
+margin-right:5px;
+margin-left:5px;
+color:white;
+}
+#pro p{
+color:white;
+padding-top:5px;
+font-family: "Segoe UI",Arial,sans-serif;
+font-size:30px;
+}
+#pro #edit{
+margin-left:25%;
+text-decoration: none;
+color: white;
+margin-top:15%;
+font-size:15px;
+}
+#imageh{
+margin-top:10%;
+height:150px;
+width:140px;
+background-color:#c4c4c4;
+margin-left:auto;
+margin-right:auto;
+}
+
+
+#infotext{
+text-align: center;
+}
+#brnav{
+margin-left:5%; 
+}
+#attributes {
+  border: none;
+  background-color: none;
+  outline: 0;
+  font-size: 25px;
+  width: 200px;
+  height: 30px;
+  color:grey;
+}
+#no-border{
+border:none;
+border-radius:2.5rem;
+font-size: 25px;
+color:grey;
+}
+.nav-pills>li.active>a,.nav-pills>li.active>a:focus,.nav-pills>li.active>a:hover{
+color:#000000;
+background-color:#9a9a9a;
+}
+.nav-pills{
+background-color:#bfbfbf;
+color:#000000;
+font-size:30px;
+}
+.nav-pills>li>a{
+color:#000000;
+}
+#logl{
+border-radius:2.5rem;
+background-color:#a7a7a7;
+width:100px;
+border:none;
+color:black;
+}​
